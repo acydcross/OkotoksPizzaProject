@@ -1,0 +1,121 @@
+@media only screen and (min-width: 300px) {
+  #mobile-logo {
+    display: none;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-family: 'Lemonada', cursive;
+}
+
+div {
+  width: 30vh;
+  height: 30vw;
+}
+
+#grid-container {
+  display: -ms-grid;
+  display: grid;
+}
+
+#header {
+  background-color: #f0a417;
+  width: 100%;
+  min-height: 5vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (2fr)[5];
+      grid-template-columns: repeat(5, 2fr);
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header .h-clickers {
+  background-color: #f0a417;
+  width: 20vw;
+  height: 5vh;
+  text-align: center;
+}
+
+#content {
+  width: 100%;
+  min-height: 75vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#content .h-contents {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  margin-bottom: 5vh;
+}
+
+#content .topImg {
+  -webkit-box-shadow: 5px 5px #646464;
+          box-shadow: 5px 5px #646464;
+}
+
+#content .topImg:hover {
+  border-radius: 40px;
+  -webkit-transition: border-radius 0.5s ease-in-out;
+  transition: border-radius 0.5s ease-in-out;
+}
+
+#footer {
+  background-color: #f0a417;
+  width: 100%;
+  min-height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (2fr)[5];
+      grid-template-columns: repeat(5, 2fr);
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+#footer .footers {
+  background-color: #ff1e1e;
+  width: 15vw;
+  height: 5vh;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#footer #logo {
+  width: 90%;
+  height: 90%;
+  text-align: center;
+}
+/*# sourceMappingURL=menu.css.map */
