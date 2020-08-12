@@ -98,24 +98,6 @@ h1 {
           align-items: center;
 }
 
-#content .contents {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 1fr 8fr;
-      grid-template-rows: 1fr 8fr;
-}
-
-#content .topImg {
-  -webkit-box-shadow: 5px 5px #646464;
-          box-shadow: 5px 5px #646464;
-}
-
-#content .topImg:hover {
-  border-radius: 40px;
-  -webkit-transition: border-radius 0.5s ease-in-out;
-  transition: border-radius 0.5s ease-in-out;
-}
-
 #footer {
   background-color: #f0a417;
   width: 100%;

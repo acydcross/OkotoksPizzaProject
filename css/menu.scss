@@ -75,20 +75,6 @@ h1 {
     grid-row-gap: 10px;
     justify-items: center;
     align-items: center;
-
-    .contents {
-        display: grid;
-        grid-template-rows: 1fr 8fr;
-    }
-
-    .topImg {
-        box-shadow: 5px 5px rgb(100, 100, 100);
-    }
-
-    .topImg:hover {
-        border-radius: 40px;
-        transition: border-radius 0.5s ease-in-out;
-    }
 }
 
 #footer {
