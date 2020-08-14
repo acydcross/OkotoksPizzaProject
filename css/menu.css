@@ -22,7 +22,13 @@ p {
 
 h1 {
   font-family: 'Lemonada', cursive;
-  font-size: small;
+  font-size: larger;
+  color: crimson;
+}
+
+h2 {
+  font-family: 'Cabin', sans-serif;
+  font-size: medium;
 }
 
 .f-button:hover {
@@ -45,6 +51,12 @@ h1 {
           box-shadow: 0 5px #666;
   -webkit-transform: translateY(4px);
           transform: translateY(4px);
+}
+
+.spacer {
+  background-color: #f0a417;
+  width: 30%;
+  min-height: 2px;
 }
 
 #grid-container {
@@ -89,8 +101,6 @@ h1 {
   min-height: 87vh;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   justify-items: center;

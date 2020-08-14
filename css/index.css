@@ -11,6 +11,13 @@ img {
      object-fit: cover;
 }
 
+iframe {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -36,15 +43,15 @@ h1 {
 .f-button:active {
   -webkit-box-shadow: 0 5px #666;
           box-shadow: 0 5px #666;
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
 }
 
 .h-clickers:active {
   -webkit-box-shadow: 0 5px #666;
           box-shadow: 0 5px #666;
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
 }
 
 #grid-container {

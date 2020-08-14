@@ -21,7 +21,13 @@ p {
 
 h1 {
     font-family: 'Lemonada', cursive;
-    font-size: small;
+    font-size: larger;
+    color: crimson;
+}
+
+h2 {
+    font-family: 'Cabin', sans-serif;
+    font-size: medium;
 }
 
 .f-button:hover {background-color: rgb(160, 112, 23)}
@@ -36,6 +42,13 @@ h1 {
 .h-clickers:active {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+}
+
+.spacer {
+    background-color: rgb(240, 164, 23);
+    width: 30%;
+    min-height: 2px;
+
 }
 
 #grid-container {
@@ -71,7 +84,6 @@ h1 {
     width: 100%;
     min-height: 87vh;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     justify-items: center;
