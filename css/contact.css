@@ -58,8 +58,9 @@ h1 {
   min-height: 5vh;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (2fr)[5];
-      grid-template-columns: repeat(5, 2fr);
+  -ms-grid-columns: 1fr 3.5fr 2fr 3.5fr 1fr;
+      grid-template-columns: 1fr 3.5fr 2fr 3.5fr 1fr;
+  grid-column-gap: 10px;
   justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -104,10 +105,9 @@ h1 {
   min-height: 8vh;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (2fr)[5];
-      grid-template-columns: repeat(5, 2fr);
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
+  grid-row-gap: 7px;
   justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
