@@ -1,4 +1,4 @@
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 500px) {
     #mobile-logo {
         display: none;
     }
@@ -123,6 +123,10 @@ h4 {
     .red-color {
         background-color: crimson;
     }
+
+    .pcolor-white {
+        color: rgb(233, 233, 233);
+    }
 }
 
 #footer {
@@ -135,7 +139,6 @@ h4 {
     justify-items: center;
     align-items: center;
     margin-top: 3vh;
-    
 
     .f-button {
         background-color: crimson;
