@@ -23,11 +23,23 @@ iframe {
 
 p {
     font-family: 'Raleway', sans-serif;
+    color: rgb(0, 0, 136)
 }
 
 h1 {
     font-family: 'Lemonada', cursive;
     font-size: small;
+}
+
+h3 {
+    font-family: 'PT Sans', sans-serif;
+    color: red;
+}
+
+h4 {
+    font-family: 'Lemonada', cursive;
+    font-size: small;
+    color: white;
 }
 
 .f-button:hover {background-color: rgb(160, 112, 23)}
@@ -59,7 +71,7 @@ h1 {
     align-items: center;
 
     .h-clickers {
-        background-color: rgb(255, 30, 30);
+        background-color: crimson;
         width: 15vw;
         height: 5vh;
         justify-items: center;
@@ -115,7 +127,7 @@ h1 {
     
 
     .f-button {
-        background-color: rgb(255, 30, 30);
+        background-color: crimson;
         width: 15vw;
         height: 5vh;
         justify-items: center;

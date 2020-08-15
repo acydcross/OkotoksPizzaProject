@@ -25,11 +25,23 @@ iframe {
 
 p {
   font-family: 'Raleway', sans-serif;
+  color: #000088;
 }
 
 h1 {
   font-family: 'Lemonada', cursive;
   font-size: small;
+}
+
+h3 {
+  font-family: 'PT Sans', sans-serif;
+  color: red;
+}
+
+h4 {
+  font-family: 'Lemonada', cursive;
+  font-size: small;
+  color: white;
 }
 
 .f-button:hover {
@@ -75,7 +87,7 @@ h1 {
 }
 
 #header .h-clickers {
-  background-color: #ff1e1e;
+  background-color: crimson;
   width: 15vw;
   height: 5vh;
   justify-items: center;
@@ -141,7 +153,7 @@ h1 {
 }
 
 #footer .f-button {
-  background-color: #ff1e1e;
+  background-color: crimson;
   width: 15vw;
   height: 5vh;
   justify-items: center;
